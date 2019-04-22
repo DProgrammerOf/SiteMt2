@@ -1,0 +1,157 @@
+.noticias {
+    background-color: #0F0F0F;
+    border: 1px solid #262525 !important;
+    padding-top: 3px;
+    height: 3.3em;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif, "Lucida Sans Unicode";
+    font-size: 8pt;
+}
+
+.noticias li {
+    float: left;
+}
+
+.noticias a:hover{
+    background-color: transparent !important;
+}
+
+.noticias a:active{
+    background-color: transparent !important;
+}
+
+.noticias a:focus{
+    background-color: transparent !important;
+}
+
+.noticias a:visited{
+    background-color: transparent !important;
+}
+
+.noticias a { 
+    padding: 7px 10px 7px 8px !important;
+    float: left;
+    color: #CEB798;
+    font-weight:bold;
+    text-decoration: none;
+ }
+
+.marcador_h1 {
+    width: 8px;
+    height: 16px;
+    float: left;
+    margin: 6px 5px 0px 1px;
+    background: url(https://imagem.ongame.net/site_novo/m2/global/metin2_img_seta_header_interna.png) top center no-repeat;
+}
+.marcador_h2 {
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin: 1.1em 10px 7px 8px;;
+    background: url(https://imagem.ongame.net/site_novo/m2/global/metin2_marcador_h2.gif) top center no-repeat;
+}
+
+.boxnoticias {
+    margin-top: 0em;
+    background-color: #0F0F0F;
+    font-family: Verdana, Arial, Helvetica, sans-serif, "Lucida Sans Unicode";
+    font-size: 8pt;
+
+}
+
+.boxnoticias div{
+    padding: -1.5em 10em 0 10em;
+   
+}
+
+.boxnoticias .dboxnoticias{
+    padding: 0 10em 0 10em;
+    background-color: #0F0F0F;
+    color: #F00;
+    line-height: 2px !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif, "Lucida Sans Unicode";
+    border: 0px !important;
+}
+
+.boxnoticias .dboxnoticias:first-child {
+    margin-top: -4em;
+}
+
+
+.boxnoticias table{
+    color: #F00;
+    line-height: 2px !important;
+    font-size: 8px;
+    font-family: Verdana, Arial, Helvetica, sans-serif, "Lucida Sans Unicode";
+    border: 0px !important;
+}
+
+.boxnoticias a{
+    color: #CEB798 !important;
+}
+
+.noticia_titulo {
+    font-weight: bold;
+    float: left;
+}
+
+.data_noticia_home{
+    float: right;
+    width: 120px;
+    font-weight:bold;
+    color:#CEB798 ;
+}
+
+.conteudo_noticia_home{
+
+    width: 633px;
+    color:#CEB798;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+.content {
+    background-color: #0F0F0F !important;
+}
+
+hr {
+    color: #262525 !important;
+    
+    float: initial !important;
+    margin-left: -100%;
+}
+
+.estatistica {
+    width: 38.0%;
+    height: 100% !important;
+    max-width: 27.4%;
+    font-family: EasonPro, "Times New Roman", serif;
+    border-collapse: collapse;
+    background-color: #0F0F0F;
+    border: 1px solid;
+    margin-right: -1.037em;
+}
+
+.estatistica tr td {
+    font-size: 10pt;
+    border-color: transparent !important;
+    line-height: 50px !important;
+    width: 190% !important;
+    color: #bababa;
+}
+
+.estatistica tr:hover {
+    background-color: #0c0c0c;
+}
+
+.top_est {
+    padding-top: 0.22em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(#982f31 0%, #7d2828 100%);
+  
+    background-repeat: no-repeat;
+      width: 100em !important;
+    font-size: 18pt !important;
+}

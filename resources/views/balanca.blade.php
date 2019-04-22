@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="ar" manifest="offline.appcache">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Balança Virtual</title>
+  <meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no">
+  <meta name="description" content="وزن الأشياء الصغيرة باستخدام 3D تعديل iD70my">
+  <meta name="author" content="Tarun Pemmaraju">
+  <link rel="apple-touch-icon-precomposed" sizes="512x512" href="icon.png" />
+  <!-- icon from http://www.flaticon.com/free-icon/food-scale-tool_45327 -->
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      -webkit-user-select: none;
+      font-family: -apple-system;
+    }
+    
+    #forcearea {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #e3e3e3;
+      padding-top: 200px;
+      text-align: center;
+      font-size: 24px;
+    }
+    
+    #tareCon {
+      position: fixed;
+      top: 10px;
+      left: 0;
+      right: 0;
+      display: none;
+      text-align: center;
+    }
+    
+    #tareValBox {
+      width: 75%;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Balança Virtual</h2>
+  <div id="forcearea">
+    0 gramas
+  </div>
+  <div id="tareCon">
+    <strong>:الوزن</strong>
+    <br>
+    <input id="tareValBox" type="range" value="0" min="0" max="385" oninput="updateTextInput(this.value);">
+    <br>
+    <span id="textInput">0 جرام</span>
+  </div>
+  <script>
+    
+    var element = document.getElementById('forcearea');
+    var tareVal = 0;
+
+    function onTouchStartMove(e) {
+      e.preventDefault();
+      checkForce(e);
+    }
+
+    function onTouchEnd(e) {
+      e.preventDefault();
+      touch = null;
+    }
+
+    function checkForce(e) {
+      touch = e.touches[0];
+      setTimeout(refreshForceValue.bind(touch), 10);
+    }
+
+    function checkMacForce(e) {
+      // max value for trackpad is 3.0 compare to 1.0 on iOS
+      refreshMacForceValue(e.webkitForce / 3);
+    }
+
+    function refreshMacForceValue(forceValue) {
+      element.innerHTML = Math.round(forceValue * 1000) + " <br><sup style=\"color:red\">Uncalibrated for Mac</sup>";
+    }
+
+    function refreshForceValue() {
+      var touchEvent = this;
+      var forceValue = 0;
+      if (touchEvent) {
+        forceValue = touchEvent.force || 0;
+        setTimeout(refreshForceValue.bind(touch), 10);
+      } else {
+        forceValue = 0;
+      }
+      document.getElementById("tareCon").style.display = "block";
+      element.innerHTML = (Math.round(forceValue * 385) - tareVal) + " gramas";
+    }
+
+    function updateTextInput(val) {
+      document.getElementById('textInput').innerText = val + " gramas";
+      tareVal = val;
+    }
+
+    (function() {
+      element.addEventListener('touchstart', onTouchStartMove, false);
+      element.addEventListener('touchmove', onTouchStartMove, false);
+      element.addEventListener('touchend', onTouchEnd, false);
+      element.addEventListener('webkitmouseforcewillbegin', checkMacForce, false);
+      element.addEventListener('webkitmouseforcechanged', checkMacForce, false);
+    })();
+  </script>
+</body>
+
+</html>

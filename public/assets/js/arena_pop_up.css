@@ -1,0 +1,32 @@
+
+#mask {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9000;
+	background-color:#ffffff;
+	display:none;
+}
+  
+#boxes .window {
+	position:absolute;
+	left:0;
+	top:0;
+	width:440px;
+	height:200px;
+	display:none;
+	z-index:9999;
+	padding:20px;
+}
+ 
+#boxes #dialog2 {
+	background:transparent; 
+	width:650px;
+	margin:0 auto;
+	margin-top:-160px;
+}
+ 
+.close{
+	display:block;
+	text-align:right;
+}

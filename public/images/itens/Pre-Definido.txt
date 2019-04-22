@@ -1,0 +1,89 @@
+	Bracelete do Tigre
+
+Dano de Skill: +15%
+Tempo de Duração: 20h
+Quantidade: 1
+Valor em Cash: 12.500
+Item negociável.
+
+
+	Bracelete do Dragão
+
+Redução a Skill: +15%
+Tempo de Duração: 20h
+Quantidade: 1
+Valor em Cash: 12.500
+Item negociável.
+
+
+	Brinco do Dragão
+
+Aumento de Defesa: +300
+Tempo de Duração: 20h
+Quantidade: 1
+Valor em Cash: 10.500
+Item negociável.
+
+
+	Brinco do Tigre
+
+Aumento de Ataque: +200
+Tempo de Duração: 20h
+Quantidade: 1
+Valor em Cash: 10.500
+Item negociável.
+
+
+	Monóculo Vermelho
+
+Usado para transmutação de armadura.
+Quantidade: 1
+Valor em Cash: 20.000
+Item negociável.
+
+
+	Pincel Mágico
+
+Usado para transmutação de acessorios.
+Quantidade: 1
+Valor em Cash: 10.000
+Item negociável.
+
+
+	Símbolo Heróico
+
+Usado para transmutação de armas.
+Quantidade: 1
+Valor em Cash: 15.000
+Item negociável.
+
+
+	Poção Eterna
+
+Regeneração de Hp: +150
+Tempo de Duração: 30d
+Valor em Cash: 10.000
+Item negociável.
+
+
+	Expansão de Inventário
+
+Destravar 5 slot do III ou IV inventario.
+Quantidade: 1
+Valor em Cash: 1.500
+Item negociável.
+
+
+	Pedra Arco-Íris
+Coloca 1 skill de M para P, não perde honra.
+Quantidade: 1
+Valor em Cash: 2.000
+Item negociável.
+
+
+	Passagem Secreta
+
+Usado para acessar o Mapa Vip.
+Quantidade: 5
+Valor em Cash: 10.000
+Item negociável.

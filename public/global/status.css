@@ -1,0 +1,930 @@
+
+#main_status {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 540px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100%;
+	color: #ae9e7d;
+	background: url(../assets/images/FUNDO.png) no-repeat center top;
+}
+#status_borda {
+	margin-left: 0px;
+	margin-right: 10px;
+	top: 0px;
+	width: 100%;
+	height: 290px;
+}
+.status_cadastro {
+	float: left;
+	margin-left: 60px;
+	margin-top: 70px;
+}
+.status_canal1 {
+	float: left;
+	margin-left: -93px;
+	margin-top: 100px;
+}
+.status_canal2 {
+	float: left;
+	margin-left: -93px;
+	margin-top: 130px;
+}
+.status_canal3 {
+	float: left;
+	margin-left: -93px;
+	margin-top: 160px;
+}
+.status_canal4 {
+	float: left;
+	margin-left: -93px;
+	margin-top: 190px;
+}
+
+/*---------------------------Top_5 LVL------------------------------------*/
+#top_5lvl {
+	position: absolute;
+	left: 205px;
+	top: 46px;
+	width: 201px;
+	height: 196px;
+	background-color: transparent;
+}
+/*-----------------------------Top 5 Rank 1----------------------------------*/
+.rank_top_5lvl_1 {
+	position: absolute;
+	left: 0px;
+	top: 1px;
+	width: 27px;
+	height: 27px;
+	background-image: url("../screen/products/rank_pvp_1_s1.png");
+}
+.nome_rank_top_5lvl_1 {
+	position: absolute;
+	left: 28px;
+	top: 7px;
+	font-size: 12px;
+}
+.classe_rank_top_5lvl_1 {
+	position: absolute;
+	left: 120px;
+	top: 3px;
+}
+.reino_rank_top_5lvl_1 {
+	position: absolute;
+	left: 155px;
+	top: 6px;
+}
+/*-----------------------------Top 5 Rank 2----------------------------------*/
+.rank_top_5lvl_2 {
+	position: absolute;
+	left: 0px;
+	top: 37px;
+	width: 24px;
+	height: 24px;
+	background-image: url("../screen/products/rank_pvp_2_s1.png");
+}
+.nome_rank_top_5lvl_2 {
+	position: absolute;
+	left: 28px;
+	top: 4px;
+	font-size: 12px;
+}
+.classe_rank_top_5lvl_2 {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+.reino_rank_top_5lvl_2 {
+	position: absolute;
+	left: 155px;
+	top: 2px;
+}
+/*-----------------------------Top 5 Rank 3----------------------------------*/
+.rank_top_5lvl_3 {
+	position: absolute;
+	left: 0px;
+	top: 71px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../screen/products/rank_pvp_3_s1.png");
+}
+.nome_rank_top_5lvl_3 {
+	position: absolute;
+	left: 28px;
+	top: 1px;
+	font-size: 12px;
+}
+.classe_rank_top_5lvl_3 {
+	position: absolute;
+	left: 120px;
+	top: -1px;
+}
+.reino_rank_top_5lvl_3 {
+	position: absolute;
+	left: 155px;
+	top: 2px;
+}
+/*-----------------------------Top 5 Rank 4----------------------------------*/
+.rank_top_5lvl_4 {
+	position: absolute;
+	left: 0px;
+	top: 104px;
+	width: 18px;
+	height: 18px;
+	background-image: url("../screen/products/rank_pvp_4_s1.png");
+}
+.nome_rank_top_5lvl_4 {
+	position: absolute;
+	left: 28px;
+	top: 0px;
+	font-size: 12px;
+}
+.classe_rank_top_5lvl_4 {
+	position: absolute;
+	left: 120px;
+	top: -3px;
+}
+.reino_rank_top_5lvl_4 {
+	position: absolute;
+	left: 155px;
+	top: -1px;
+}
+/*-----------------------------Top 5 Rank 5----------------------------------*/
+.rank_top_5lvl_5 {
+	position: absolute;
+	left: 0px;
+	top: 135px;
+	width: 16px;
+	height: 16px;
+	background-image: url("../screen/products/rank_pvp_5_s1.png");
+}
+.nome_rank_top_5lvl_5 {
+	position: absolute;
+	left: 28px;
+	top: -1px;
+	font-size: 12px;
+}
+.classe_rank_top_5lvl_5 {
+	position: absolute;
+	left: 120px;
+	top: -4px;
+}
+.reino_rank_top_5lvl_5 {
+	position: absolute;
+	left: 155px;
+	top: -1px;
+}
+/*-----------------------------Fonte----------------------------------*/
+
+.fonte_rank_top_5lvl {
+	position: absolute;
+	left: 0px;
+	top: 168px;
+	font-size: 10px;
+}
+/*------------------------------FIM-----------------------------------*/
+/*---------------Top Grupo 4x4, Ranking PvP Classe!!!-----------------*/
+#main_rank_grupo_4x4_pvp_classe {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 315px;
+}
+
+.clearfix {
+  *
+  zoom: 1;
+  margin-bottom: -0.0em;
+}
+
+#fundo_rank_grupo_4x4_pvp_classe {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	color: #f3f3f3;
+	background-color: #f3f3f3;
+}
+#icon_rank_grupo_4x4_pvp_classe {
+	position:relative;
+	left: 25px;
+	top: 10px;
+	width: 900px;
+	height: 20px;
+	background-image: url("../assets/images/icon_rank_grupo_4x4_pvp_classe.png");
+}
+#fundo_cor_grupo_4x4_pvp_classe {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	color: #272727;
+	background-color: #272727;
+}
+#top_grupo_4x4 {
+	position:relative;
+	margin-left: 2em;
+	left: 900px;
+	width: 252px;
+	height: 300px;
+	color: #f3f3f3;
+	background: url("../assets/images/topgeral.png") no-repeat center;
+}
+.nome_rank_top_5lvl_1 a:hover,
+.nome_rank_top_5lvl_2 a:hover,
+.nome_rank_top_5lvl_3 a:hover,
+.nome_rank_top_5lvl_4 a:hover,
+.nome_rank_top_5lvl_5 a:hover {
+	color: #cd3201 !important;
+}
+
+#top_pvp_classe1list li,
+#top_pvp_classe2list li,
+#top_pvp_classe3list li,
+#top_pvp_classe4list li{
+	line-height: 3.5em;
+}
+
+.taca_grupo_4x4{
+	position:relative;
+	left: -10px;
+	top: -7px;
+}
+#top_grupo_4x4list {margin-top: 0px; padding-top: 0px; padding-left: 70px;}
+#top_grupo_4x4list ul{width:180px; height:11px !important;}
+#top_grupo_4x4list li{float:left;width:55px;}
+#top_grupo_4x4list li:last-child{margin-left:40px;}
+#top_grupo_4x4list li{font-size:11px; list-style-type:none;}
+.lista_top{position: relative; left: 10px;	line-height: 22px; color: #555555;
+}
+
+#top_pvp_classe1 {
+	position:absolute;
+	margin-left: 3px;
+	padding-top: 0px;
+	margin-top: -495px;
+	width: 245px;
+	height: 344px;
+	background-image: url("../assets/images/top_guerreiro.png");
+}
+#top_pvp_classe1list {margin-top: 0px; padding-top: 80px; padding-left: 2px;}
+#top_pvp_classe1list ul{width:180px; height:11px !important;}
+#top_pvp_classe1list li{float:left;width:45px;}
+#top_pvp_classe1list li:last-child{margin-left:45px;margin-top: -1.5em}
+#top_pvp_classe1list li{font-size:11px; list-style-type:none;}
+.lista_top{position: relative; left: 18px !important;	line-height: 22px;
+}
+
+#top_pvp_classe2 {
+	position:absolute;
+	margin-left: 228px;
+	padding-top: 0px;
+	margin-top: -495px;
+	width: 245px;
+	height: 344px;
+	background-image: url("../assets/images/top_ninja.png");
+}
+#top_pvp_classe2list {margin-top: 0px; padding-top: 80px; padding-left: 2px;}
+#top_pvp_classe2list ul{width:180px; height:11px !important;}
+#top_pvp_classe2list li{float:left;width:45px;}
+#top_pvp_classe2list li:last-child{margin-left:45px;margin-top: -1.5em;}
+#top_pvp_classe2list li{font-size:11px; list-style-type:none;}
+.lista_top{position: relative; left: 10px;	line-height: 22px;
+}
+
+#top_pvp_classe3 {
+	position:absolute;
+	margin-left: 450px;
+	padding-top: 0px;
+	margin-top: -495px;
+	width: 245px;
+	height: 344px;
+	background-image: url("../assets/images/top_shura.png");
+}
+#top_pvp_classe3list {margin-top: 0px; padding-top: 80px; padding-left: 2px;}
+#top_pvp_classe3list ul{width:180px; height:11px !important;}
+#top_pvp_classe3list li{float:left;width:45px;}
+#top_pvp_classe3list li:last-child{margin-left:45px;margin-top: -1.5em;}
+#top_pvp_classe3list li{font-size:11px; list-style-type:none;}
+.lista_top{position: relative; left: 10px;	line-height: 22px;
+}
+
+#top_pvp_classe4 {
+	position:absolute;
+	margin-left: 675px;
+	padding-top: 0px;
+	margin-top: -495px;
+	width: 245px;
+	height: 344px;
+	background-image: url("../assets/images/top_shaman.png");
+}
+#top_pvp_classe4list {margin-top: 0px; padding-top: 80px; padding-left: 2px;}
+#top_pvp_classe4list ul{width:180px; height:11px !important;}
+#top_pvp_classe4list li{float:left;width:45px;}
+#top_pvp_classe4list li:last-child{margin-left:45px;margin-top: -1.5em;}
+#top_pvp_classe4list li{font-size:11px; list-style-type:none;}
+.lista_top{position: relative; left: 10px;	line-height: 22px;
+}
+
+
+.lista_top li a:hover{
+	color:#ea5210 !important;
+}
+
+
+
+
+
+
+/*   STYLE GUILDS   */
+
+.profile-guild-header {
+	width:100%;
+	height:200px;
+}
+
+.profile-guild-header > h1 {
+	position:absolute;
+	font-family:Tahoma;
+	font-size:40px;
+	margin:0;
+	font-weight:normal;
+    margin-left: 40px;
+    margin-top: 60px;
+	width:360px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: nowrap;
+	height:48px;
+}
+
+.profile-guild-informations {
+	position:absolute;
+	margin-left:410px;
+	margin-top:30px;
+}
+
+/**/
+.profile-guild-box-information-left {
+	display:inline-block;
+	width:150px;
+	height:100px;
+}
+
+.profile-guild-box-information-right {
+	display:inline-block;
+}
+
+.profile-guild-box-information-right > ul,
+.profile-guild-box-information-left > ul {
+	vertical-align:top;
+	margin:0 auto;
+	padding:0;
+}
+
+.profile-guild-box-information-left > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#000;
+	line-height:20px;
+	font-size:16px;
+	text-align:right;
+	height:16px;
+	padding-right:10px;
+	margin-bottom:8px;
+}
+
+.profile-guild-box-information-right > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#000;
+	line-height:16px;
+	font-size:16px;
+	text-align:left;
+	height:16px;
+	margin-bottom:8px;
+}
+
+.wc_list_area {
+    margin: 0 auto;
+    width: 750px
+}
+.wc_list {
+    table-layout: fixed;
+    width: 100%
+}
+.wc_list_area table,
+.board-list-content table {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #4a4e4e;
+    border-collapse: collapse;
+    border-bottom: 2px solid #d1d1d1
+}
+th {
+    height: 30px;
+    padding-top: 2px;
+    border: 1px solid;
+    border-width: 1px 0 4px;
+    border-color: #dadada transparent #049bc9;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+    border-collapse: collapse
+}
+.wc_list th.first {
+    border-left: 1px solid #d1d1d1
+}
+.wc_list th.last {
+    border-right: 1px solid #c7c7c7
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+.wc_list tr,
+.board-list-content tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    height: 43px;
+    border-bottom: 1px solid #e1e1e1
+}
+.ranking {
+    font-family: Tahoma
+}
+.rank_top_1 {
+    padding: 16px 0 14px;
+    font-weight: 700;
+    background-color: rgba(243, 246, 251, 1)
+}
+.rank_top_2 {
+    padding: 16px 0 14px;
+    font-weight: 700;
+    background-color: rgba(243, 246, 251, .8)
+}
+.rank_top_3 {
+    padding: 16px 0 14px;
+    font-weight: 700;
+    background-color: rgba(243, 246, 251, .5)
+}
+
+.top-1>.num{
+	background:url(../assets/images/gold.png) center no-repeat;
+	font-size:0
+}
+
+.top-2>.num{
+	background:url(../assets/images/silver.png) center no-repeat;
+	font-size:0
+}
+.top-3>.num{
+	background:url(../assets/images/bronze.png) center no-repeat;
+	font-size:0
+}
+
+.notice:hover,
+.ranking>tr:hover {
+    background-color: #f7f2ec
+}
+.num {
+    color: #0596c7
+}
+.txt_n {
+    font-size: 12px;
+    text-align: center
+}
+.nick_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    white-space: nowrap
+}
+.nick_name > a {
+    color: #4a4e4e;
+	text-decoration:none;
+}
+.nick_name > a:hover {
+    text-decoration: underline
+}
+.guild_name {
+    color: #666;
+    text-align: center
+}
+.guild_name a {
+    color: #09F;
+	text-decoration:none;
+}
+.guild_name a:hover {
+    text-decoration: underline
+}
+.class {
+    font-weight: 400!important;
+    font-size: 11px;
+    text-align: center
+}
+.member {
+    font-weight: 400!important;
+    font-size: 11px
+}
+.kingdom {
+    font-weight: 400!important;
+    font-size: 11px;
+    text-align: center
+}
+.score {
+    color: #666
+}
+.job-icon {
+    display: block;
+    margin: 0 auto;
+    width: 21px;
+    height: 21px
+}
+.classe_guerreiro_m {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -21px no-repeat
+}
+.classe_guerreiro_f {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') no-repeat
+}
+.classe_ninja_m {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -63px no-repeat
+}
+.classe_ninja_f {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -42px no-repeat
+}
+.classe_shaman_m {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -105px no-repeat
+}
+.classe_shaman_f {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -84px no-repeat
+}
+.classe_shura_m {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -147px no-repeat
+}
+.classe_shura_f {
+    background: url('https://aom2.org/template/images/rank/chars/chars.png') 0 -126px no-repeat
+}
+.classe_lycan {
+	background: url('https://aom2.org/template/images/rank/chars/classe_lycan_m_icon.gif');
+}
+.paginate {
+    text-align: center;
+    margin-top: 20px;
+    height: 30px
+}
+.paginate>a {
+    margin-left: 2px;
+}
+.paginate>font {
+    margin-left: 2px;
+    vertical-align: top
+}
+.btn-page {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: #666;
+    background-color: #e3e3e3;
+    font-family: Tahoma;
+    font-weight: 400;
+    cursor: pointer
+}
+.btn-page:hover {
+    color: #fff;
+    background-color: #049bc9
+}
+.btn-page2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: #c5b49e;
+    background-color: rgba(69, 54, 31, .9);
+    font-family: Tahoma;
+    font-weight: 400;
+    cursor: pointer
+}
+.btn-page2:hover {
+    color: #fff;
+    background-color: #ab6f2a
+}
+.empire-icon {
+    display: block;
+    margin: 0 auto;
+    width: 41px;
+    height: 21px
+}
+.reino-shinsu {
+    background: url('https://aom2.org/template/images/rank/flags/flags.jpg') 0 -42px no-repeat
+}
+.reino-jinno {
+    background: url('https://aom2.org/template/images/rank/flags/flags.jpg') 0 -21px no-repeat
+}
+.reino-chunjo {
+    background: url('https://aom2.org/template/images/rank/flags/flags.jpg') no-repeat
+}
+.page-break {
+	height:30px;
+}
+.current {
+    color: #fff;
+    background-color: #049bc9
+}
+.current2 {
+    color: #fff;
+    background-color: #ab6f2a
+}
+
+/** TOOLTIP **/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+	font-size:12px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltip-top {
+    width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.tooltip .tooltip-top::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip-guild {
+	top:20px;
+	left:20px;
+	margin-top:18px;
+}
+.tooltip .tooltip-right {
+    top: -5px;
+}
+.tooltip .tooltip-right::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+/** END_OF_TOOLTIP **/
+
+
+
+.profile-content-information {
+	margin-top:190px;
+	width:100%;
+	height:295px;
+	/* background:url('https://aom2.org/template/images/profile/characters_bg.png') no-repeat center rgba(0,0,0,0.5); */
+	background: rgba(0,0,0,0.5);
+}
+
+.profile-character-box {
+	position:absolute;
+	background:red;
+    margin-top: -70px;
+    margin-left: 25px;
+}
+
+.profile-box-information {
+	position:absolute;
+	margin-left:350px;
+	margin-top:40px;
+}
+
+.profile-box-information-left {
+	display:inline-block;
+}
+
+.profile-box-information-right {
+	display:inline-block;
+	width:150px;
+	height:100px;
+}
+
+.profile-box-information-right > ul,
+.profile-box-information-left > ul {
+	vertical-align:top;
+	margin:0 auto;
+	padding:0;
+}
+
+.profile-box-information-left > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#fff;
+	line-height:20px;
+	font-size:16px;
+	text-align:right;
+	height:16px;
+	padding-right:10px;
+	margin-bottom:13px;
+}
+
+.profile-box-information-right > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#fff;
+	line-height:15px;
+	font-size:16px;
+	text-align:left;
+	height:16px;
+	margin-bottom:13px;
+}
+
+.profile-box-information-right > ul > li > a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.profile-box-information-right > ul > li > a:hover {
+	text-decoration:underline;
+}
+
+.profile-checked {
+	background:url('https://aom2.org/template/images/profile/profile-checked.png') no-repeat;
+	padding-left:20px;
+}
+
+.guild-profile-checked {
+	background:url('https://aom2.org/template/images/profile/profile-checked.png') left center no-repeat;
+	padding-left:20px;
+}
+
+.profile-box-information-right > ul > li > b {
+	font-weight: 400;
+    color: rgba(77,210,255,.9);
+    margin-right: 2px;
+}
+
+.profile-content-bg {
+	background:url('https://aom2.org/template/images/profile/profile-content-bg.jpg') #fff no-repeat;
+	background-size:cover;
+}
+
+.profile-guild-header {
+	width:100%;
+	height:200px;
+}
+
+.profile-guild-header > h1 {
+	position:absolute;
+	font-family:Tahoma;
+	font-size:40px;
+	margin:0;
+	font-weight:normal;
+    margin-left: 40px;
+    margin-top: 60px;
+	width:360px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: nowrap;
+	height:48px;
+}
+
+.profile-guild-informations {
+	position:absolute;
+	margin-left:410px;
+	margin-top:30px;
+}
+
+/**/
+.profile-guild-box-information-left {
+	display:inline-block;
+	width:150px;
+	height:100px;
+}
+
+.profile-guild-box-information-right {
+	display:inline-block;
+}
+
+.profile-guild-box-information-right > ul,
+.profile-guild-box-information-left > ul {
+	vertical-align:top;
+	margin:0 auto;
+	padding:0;
+}
+
+.profile-guild-box-information-left > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#000;
+	line-height:20px;
+	font-size:16px;
+	text-align:right;
+	height:16px;
+	padding-right:10px;
+	margin-bottom:8px;
+}
+
+.profile-guild-box-information-right > ul > li {
+	list-style: none;
+	font-family:'Open Sans', sans-serif;
+	color:#000;
+	line-height:16px;
+	font-size:16px;
+	text-align:left;
+	height:16px;
+	margin-bottom:8px;
+}
+
+.input-hidden {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    border: 0;
+    position: absolute
+}
+
+.center-page-min {
+	min-height: 958px;
+}
+
+/* */
+.profile-guerreiro-m {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/warrior_m.png') center no-repeat;
+}
+.profile-guerreiro-f {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/warrior_f.png') center no-repeat;
+}
+.profile-ninja-f {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/assasin_f.png') center no-repeat;
+}
+.profile-ninja-m {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/assasin_m.png') center no-repeat;
+}
+.profile-shura-m {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/sura_m.png') center no-repeat;
+}
+.profile-shura-f {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/sura_f.png') center no-repeat;
+}
+.profile-shaman-f {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/shaman_f.png') center no-repeat;
+}
+.profile-shaman-m {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/shaman_m.png') center no-repeat;
+}
+.profile-lycan {
+	width:417px;
+	height:494px;
+	background:url('https://aom2.org/template/images/profile/classes/lycan.png') center no-repeat;
+}

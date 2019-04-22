@@ -1,0 +1,307 @@
+.input-user::selection,
+.input-pw::selection {
+	background:#ffb7b7;
+}
+
+.download-option-pic {
+	margin-left: 1px;
+}
+
+.download-other-box {
+	background:#1f1f26;
+}
+
+.register-content-page {
+    width: 585px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+}
+.register-content-header {
+    width: 100%;
+    height: 65px;
+    background-color: #8c0000;
+    text-align: center
+}
+.register-content-header>font {
+    font-family: Tahoma;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 65px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, .7)
+}
+.register-content-header-aside {
+    width: 780px;
+    position: absolute;
+    background: url(https://aom2.org/template/images/register/register-page-aside.png) center no-repeat;
+    height: 14px
+}
+.register-content-description {
+    background-color: #400000;
+    width: 780px;
+    height: 72px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell
+}
+.register-content-description>font {
+    font-family: Dotum, AppleGothic, sans-serif;
+    font-size: 16px;
+    color: #fff
+}
+.register-content-form {
+    min-height: 575px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: Tahoma
+}
+.register-content-form>font {
+    display: block;
+    text-align: right;
+    font-size: 13px
+}
+.register-content-form>font>a,
+.register-content-input a,
+.register-content-page-description a {
+    color: #000;
+    text-decoration: none
+}
+.register-content-form>font>a:hover,
+.register-content-input a:hover,
+.register-content-page-description a:hover {
+    text-decoration: underline
+}
+.register-content-input {
+    margin-top: 20px
+}
+.register-content-input>label {
+    display: block;
+    height: 65px;
+    text-align: center;
+}
+.register-content-input>label>input[type=text],
+.register-content-input>label>input[type=password] {
+    margin: 0 auto;
+    width: 320px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.register-input-focus {
+    border: 1px solid #cecdcd
+}
+.register-input-focus:focus {
+    border: 1px solid #858585
+}
+.register-input-error {
+    color: red;
+    border: 1px solid rgba(255, 0, 0, .5)
+}
+.register-input-error:focus {
+    border: 1px solid rgba(255, 0, 0, 1)
+}
+.register-input-warning {
+    color: #ffc000;
+    border: 1px solid rgba(255, 192, 0, .5)
+}
+.register-input-warning:focus {
+    border: 1px solid rgba(255, 192, 0, 1)
+}
+.register-input-success {
+    color: green;
+    border: 1px solid rgba(0, 128, 0, .5)
+}
+.register-input-success:focus {
+    border: 1px solid rgba(0, 128, 0, 1)
+}
+.register-input-loading {
+    color: gray;
+    border: 1px solid rgba(119, 119, 119, .8)
+}
+.register-input-loading:focus {
+    border: 1px solid rgba(119, 119, 119, 1)
+}
+.register-content-input>label>input[type=checkbox] {
+    display: inline-block;
+}
+.register-content-input {
+	padding-bottom:50px;
+}
+.register-content-input>label>font {
+	display:inline-block;
+    margin: 0 auto 3px;
+    width: 160px;
+    text-align: left;
+	font-size:15px;
+	font-family: Tahoma;
+	margin-right:20px;
+	text-align:right;
+}
+.register-content-input>label>img {
+    position: absolute;
+    margin-top: 0;
+    margin-left: -170px
+}
+.register-content-input>label>p>b {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 1px
+}
+.register-content-input>label>p {
+    margin: 0 auto;
+    display: block;
+    width: 455px;
+    height: 40px;
+    text-align: left;
+    padding-left: 110px
+}
+.error_information {
+    position: absolute;
+    width: 305px;
+    height: 35px;
+    margin-top: -36px;
+    margin-left: 335px;
+    font-size: 12px;
+    color: red;
+    text-align: right;
+    line-height: 30px;
+	font-family:Tahoma;
+}
+.alert_information {
+    position: absolute;
+    width: 338px;
+    height: 35px;
+    margin-top: -36px;
+    margin-left: 300px;
+    font-size: 12px;
+    color: #ffc000;
+    text-align: right;
+    line-height: 30px;
+	font-family:Tahoma;
+}
+.loading_blank {
+    visibility: hidden
+}
+.loading_gif {
+    position: absolute;
+    background: url(https://aom2.org/template/images/register/loading.gif) no-repeat;
+    width: 30px;
+    height: 32px;
+    margin-top: -36px;
+    margin-left: 610px
+}
+.ico_success {
+    position: absolute;
+    background: url(https://aom2.org/template/images/register/ico_success.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 610px;
+	font-family:Tahoma;
+}
+.ico_error {
+    position: absolute;
+    background: url(https://aom2.org/template/images/register/ico_error.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 610px;
+	font-family:Tahoma;
+}
+.register-content-button {
+    margin: 0 auto;
+    margin-left: -3em;
+    display: block;
+    width: 163px;
+    height: 60px;
+    background: url(https://aom2.org/template/images/main/button-red-medium.png) no-repeat;
+    color: #fff;
+    font-family: Tahoma;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px
+}
+/* deprecated --owaran 29.11.2016
+.register-content-button:hover {
+    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2)
+}*/
+.msg_error {
+    margin: 15px auto 0;
+    background-color: #FFE;
+    border: 1px solid red;
+    color: #600;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding: 5px;
+    text-align: left
+}
+.msg_error>ul {
+    margin-top: 5px
+}
+.msg_error>ul>li {
+    margin-left: 25px;
+    display: list-item;
+    list-style-type: disc
+}
+.register-b2-description {
+    margin: 0 auto 30px;
+    width: 550px;
+    font-size: 13px
+}
+.register-content-page-description {
+    height: 30px
+}
+.register-content-page-desc-left {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    text-align: left;
+    font-size: 14px
+}
+.register-content-page-desc-right {
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    text-align: right;
+    font-size: 14px
+}
+.register-description-activation {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 13px;
+	font-size:12px;
+	font-family:tahoma;
+}
+.register-description-activation img {
+    display: block;
+    margin: 0 auto 20px
+}
+.alert-warning a {
+    color: #c09853;
+}
+.alert-warning a:hover {
+    text-decoration: underline;
+}
+label > p > b {
+	font-family:Tahoma;
+}
+
+.register-content-button:hover {
+    filter: brightness(1.2);
+    -webkit-filter: brightness(1.2);
+}
+
+#progress{
+  background: transparent;
+  transition: border 0.2s;
+  color: #fff;
+}
+#progress div{
+  background: transparent;
+  transition: background 0.2s;
+}
